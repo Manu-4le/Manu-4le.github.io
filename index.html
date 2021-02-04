@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Sub-directorio/style.css"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,600;1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="Sub-directorio-2/logo.svg">
+    <script src="https://kit.fontawesome.com/2cd024ddb4.js" crossorigin="anonymous"></script>
+    <title>Blog - Proyecto</title>
+</head>
+<body>
+                <!--Comienzo del header y del menu de navegacion-->
+    <nav class="nav">
+     <a href="#"><img src="Sub-directorio-2/logo.svg" alt="#"></a>
+            <ul class="nav_ul">
+                 <li class="nav_li"><a href="#episodios">EPISODIOS</a></li>
+                 <li class="nav_li"><a href="#nosotros">NOSOTROS</a></li>
+                 <li class="nav_li"><a href="#entrevistas">ENTREVISTAS</a></li>
+                 <li class="nav_li"><a href="#topicos">TÓPICOS</a></li>
+            </ul>
+    </nav>
+                <!--Menu mobile responsive + menu hamburguesa -->
+   <div class="mobile-responsive">
+            <header class="header">                   
+            <a href="#" class="logo"><img src="Sub-directorio-2/logo.svg" alt="#"></a>
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+                    <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
+                        <ul class="menu">
+                            <li><a href="#episodios">EPISODIOS</a></li>
+                            <li><a href="#nosotros">NOSOTROS</a></li>
+                            <li><a href="#entrevistas">ENTREVISTAS</a></li>
+                            <li><a href="#topicos">TÓPICOS</a></li>
+                        </ul>
+            </header>            
+    </div>
+                    <!--Principio del header con todo contenido del titulo principal-->
+    <main class="titulo">
+            <div class="introduccion">
+                <div class="titulo-texto"> 
+                    <p>Hello <em class="tachado">world</em> pale blue dot <em class="punto">.</em></p>
+                </div>
+                <div class="contenido-texto"> 
+                    <h3 class="vista-escritorio"> 
+                        El Portal de podcast que explora el mundo de la programación y 
+                        la tecnologia: Nuevos episodios, todos los jueves cada 15 días.
+                    </h3>
+                    <h3 class="vista-mobile">Un podcast que explora el mundo de la programación. Nuevos episodios, todos los jueves cada 15 días.</h3>
+                </div>
+                <div class="boton"> 
+                    <button class="centrado"> 
+                    <span>CONOCÉ MÁS</span>
+                    </button>
+                </div>
+            </div>   
+    </main>      
+                        <!--1° Seccion para escuchar los podcast-->           
+            <section class="background">
+                    <h3 class="episodios" id="episodios">Episodios</h3>
+                    <div class="podcast">
+                    <div class="podcast-1">
+                        <iframe src="https://open.spotify.com/embed-podcast/episode/2ZT7mz6EuDLrcMfwZdSQ6m"></iframe>
+                    </div>
+                    <div class="podcast-2">
+                       <iframe src="https://open.spotify.com/embed-podcast/episode/1KxbChd3KjpBUlG97vO1Jn" ></iframe>
+                    </div>
+                    <div class="podcast-3">
+                       <iframe src="https://open.spotify.com/embed-podcast/episode/5XCPvhXkPrPdLomchIEcSE" ></iframe>
+                    </div>
+                    <div class="podcast-4">
+                       <iframe src="https://open.spotify.com/embed-podcast/episode/7FqwDZLpBlqJ8fjx8HaDcK"></iframe>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+                        <polygon fill="white" points="0,100 100,0 100,100"/>
+                    </svg>
+                    </div>
+                </section>
+            <section>
+    <!--2° seccion que pertenece a la img del telefono superpuesto y el contenido que lo rodea-->
+                    <div class="texto-telefono">
+                        <img src="Sub-directorio-2/phone.png" alt="#" >
+                        <div class="contenido-texto-telefono" id="nosotros">
+                          <p> De dónde venimos</p>
+                        <h3>  
+                            our posturings, our imagined self-importance,
+                            the delusion that we have some privileged 
+                            position in the Universe, are challenged by this 
+                            point of pale light. 
+                         </h3>
+                         <br>
+                         <h3>
+                            Our planet is a lonely speck in the great 
+                            enveloping cosmic dark. In our obscurity, in all 
+                            this vastness, there is no hint that help will 
+                            come from elsewhere to save us from ourselves.
+                         </h3>
+                        </div>     
+                    </div>
+            </section>     
+             <!-- 3 ° seccion que contiene el parrafo de los invitados + img de la mismas-->
+                <p class="texto-invitados" id="entrevistas">Invitadas/os estelares</p>
+                      <div class="invitados-grid">
+                        <div class="foto-1">
+                            <img src="Sub-directorio-2/Katie-Bouman.png" alt="">
+                     </div>
+                         <div class="foto-2">
+                            <img src="Sub-directorio-2/susan-kare.png" alt="">
+                     </div>
+                        <div class="foto-3">
+                            <img src="Sub-directorio-2/Margaret_Hamilton.png" alt="">
+                     </div>
+                        <div class="foto-4">
+                            <img src="Sub-directorio-2/grace-hopper.png" alt="">
+                     </div>
+                        <div class="foto-5">
+                            <img src="Sub-directorio-2/An-E.R.A.Univac-1103-computer-in-the-1950s.png" alt="#">
+                     </div>
+                        <div class="foto-6">
+                            <img src="Sub-directorio-2/Computer-operators-with-an-Eniac—the-world’s-first-programmable-general-purpose-computer.png" alt="#">
+                     </div>
+                </div>
+    <footer>
+          <!--Porcion del Footer - parte final de la pagina -->
+        <div class="caja-parrafo" id="topicos">
+        <p>Algunos de nuestros temas</p>
+        </div>
+            <div class="temas-grid">
+                <div class="icono-1"><img src="Sub-directorio-2/icon1.svg" alt=""><a href="#"><h1>Trabajo remoto</h1></a></div>
+                <div class="icono-2"><img src="Sub-directorio-2/icon2.svg" alt=""><a href="#"><h1>Repensando la programación </h1></a></div>
+                <div class="icono-3"><img src="Sub-directorio-2/icon3.svg" alt=""><a href="#"><h1>Bases del código</h1></a></div>
+                <div class="icono-4"><img src="Sub-directorio-2/icon4.svg" alt=""><a href="#"><h1>Seguridad informática</h1></a></div>
+            </div>
+        <div class="ultimas-novedades fondo-2">
+            <p>¿Querés las últimas novedades?</p>
+            <div class="boton-2"> 
+                <button class="centrado-2"> 
+                <span>ESCUCHÁ LOS EPISODIOS</span>
+                </button>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+            </svg>
+        </div>
+        <div class="pie">
+            <h4>© 2019— Hello blue pale dot</h4>
+            <nav class="redes">
+                    <a href="https://www.spotify.com/es/"><i class="fab fa-spotify"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://twitter.com/?lang=es"><i class="fab fa-twitter"></i></a>
+                    <a href="https://es-la.facebook.com/"><i class="fab fa-facebook"></i></a>
+                    <a href="https://web.telegram.org/"><i class="fab fa-telegram"></i></a>
+             </nav>
+        </div>
+    </footer>
+</body>
+</html>
